@@ -23,7 +23,7 @@ void main(void)
   P3->SEL1 &= ~(BIT0);
   P3->DIR |= BIT0;
   
-  set_DCO(FREQ+24+MHZ); // set clock to 24MHz
+  set_DCO(FREQ_24_MHZ); // set clock to 24MHz
   
   TIMER_A0->CTL |= (TIMER_A_CTL_SSEL__SMCLK | TIMER_A_CTL_MC__CONTINUOUS);
   TIMER_A0->CCR[0] = 239; // count up to 240-1(starts at 0) cycles = 25kHz with 25% duty cycle
