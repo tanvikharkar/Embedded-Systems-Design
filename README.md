@@ -1,2 +1,0 @@
-# Assignment 1 - Intro to Programming
-Utilizing a microcontroller requires writing programs for it to run. While this class covers how to use many of the common peripherals that are built into modern microcontrollers and programming specifically for embedded systems, it builds on the programming fundamentals that should have been previously covered. To review those concepts, this assignment will cover writing simple functions that implement the logic of the provided flowcharts.
