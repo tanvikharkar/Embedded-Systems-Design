@@ -4,7 +4,7 @@ Write a short program to initialize the LCD and write a single character to the 
 Modularize your code, writing useful functions to make later use of the LCD display easy to integrate. Minimum functions to be written include:
 
 LCD_init(void); // initialize LCD<br />
-LCD_command(uint8_t command); // Send LCD a single 8-bit command<br /
+LCD_command(uint8_t command); // Send LCD a single 8-bit command<br />
 LCD_write_char(uint8_t letter); // write a character to the LCD<br />
 
 Note that some #define can be used for specific commands like CLEAR_HOME, NEW_LINE, or
