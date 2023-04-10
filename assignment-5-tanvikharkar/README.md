@@ -5,7 +5,7 @@ using a 24 MHz input clock. It is recommended to draw out the 25 kHz wave along 
 MHz wave for reference. Be sure to specify period, high, and low time values of the 25 kHz wave. <br /><br />
 Using SMCLK for TimerA, create a 25 kHz with a 25% duty cycle square wave by setting a pin
 high and low in a TimerA ISR. The code in main should only set up TimerA and not keep track
-of any timing. No software delays should be used.
+of any timing. No software delays should be used.<br/>
 
 Part B: ISR Processing Measurement
 Change your code above to use a single ISR which generates a 25 kHz square wave with a 50%
