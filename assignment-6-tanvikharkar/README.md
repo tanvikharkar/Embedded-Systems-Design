@@ -1,0 +1,3 @@
+# Assignment 6 - SPI Digital Analog Converter
+The user will input 3 key presses to form a voltage and the program will control the DAC to set that output voltage. For example, entering ② ⑦ ⑤ should cause the output voltage to be 2.75 V. The maximum output from the DAC is 3.30 V, so input values greater than 330 should output 3.3 V.<br /><br />
+Measure the output voltage with a multimeter (the AD2 has a voltmeter option) and compare it to the specified voltage. Use this measurement to calibrate your DAC function. The output should be within 10 mV of the entered voltage for all values from 000 to 330.
