@@ -11,6 +11,5 @@ void set_DCO(int freq)
   CS->CTL1 = 0;
   CS->CTL1 = (CS_CTL1_DIVM__1 | CS_CTL1_SELM__DCOCLK
            | CS_CTL1_SELS__DCOCLK | CS_CTL1_DIVS__1);
-  
   CS->KEY = 0; // Lock CS Registers
 }
